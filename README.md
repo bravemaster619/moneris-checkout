@@ -1,3 +1,5 @@
+![build](https://github.com/bravemaster619/moneris-checkout/workflows/build/badge.svg)
+
 # Overview
 
 Npm module for Moneris Checkout.
