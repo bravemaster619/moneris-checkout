@@ -1,5 +1,6 @@
 {
   "name": "moneris-checkout",
+  "homepage": "https://github.com/bravemaster619/moneris-checkout",
   "version": "0.1.0",
   "description": "Moneris checkout",
   "main": "dist/moneris-checkout.js",
@@ -26,5 +27,9 @@
   },
   "dependencies": {
     "@types/node": "^14.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bravemaster619/moneris-checkout.git"
   }
 }
