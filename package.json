@@ -16,6 +16,7 @@
   "author": "bravemaster619",
   "license": "MIT",
   "devDependencies": {
+  	"@types/node": "^14.0.4",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "chai": "^4.2.0",
@@ -26,7 +27,7 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
-    "@types/node": "^14.0.4"
+    
   },
   "repository": {
     "type": "git",
