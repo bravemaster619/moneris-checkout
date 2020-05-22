@@ -1,5 +1,5 @@
-import { BooleanType } from "types/global";
-import { BillingDetailsInterface } from "types/preload/request";
+import { BooleanType } from "../../global";
+import { BillingDetailsInterface } from "../../preload/request";
 
 export interface BillingDetailResponseInterface extends BillingDetailsInterface {
   same_as_shipping: BooleanType;

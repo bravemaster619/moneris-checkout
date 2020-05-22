@@ -1,4 +1,4 @@
-import { EnvironmentType, RequestType } from "types/global";
+import { EnvironmentType, RequestType } from "../../global";
 
 export default interface ReceiptRequestInterface {
   store_id: string;

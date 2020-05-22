@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import "mocha";
-import MonerisCheckout from "moneris-checkout";
-import { EnvironmentType, BooleanType } from "types/global";
+import MonerisCheckout from "../moneris-checkout";
+import { EnvironmentType, BooleanType } from "../types/global";
 describe("MonerisCheckout", () => {
 
   const moneris = new MonerisCheckout(

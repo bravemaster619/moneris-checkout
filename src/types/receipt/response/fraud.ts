@@ -1,4 +1,4 @@
-import { BooleanType } from "types/global";
+import { BooleanType } from "../../global";
 
 export enum FraudDecisionOriginType {
   MONERIS = "Moneris",

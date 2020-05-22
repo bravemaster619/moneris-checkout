@@ -1,6 +1,6 @@
-import { EcommerceIndicatorType } from "types/receipt/response/eci";
-import { BooleanType } from "types/global";
-import { ReceiptResultType } from "./result";
+import { EcommerceIndicatorType } from "../response/eci";
+import { BooleanType } from "../../global";
+import { ReceiptResultType } from "../response/result";
 
 export interface CreditCardInterface {
   first6last4: string;

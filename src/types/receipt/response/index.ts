@@ -1,25 +1,25 @@
-import { BooleanType } from "types/global";
+import { BooleanType } from "../../global";
 import { 
   ContactDetailsInterface,
   ShippingDetailsInterface,
   RecurringBillingInterface,
-} from "types/preload/request";
-import { CreditCardInterface, CreditCardResultInterface } from "types/receipt/response/card";
-import { BillingDetailResponseInterface } from "types/receipt/response/billing";
-import { ShoppingCartResponseInterface } from "types/receipt/response/cart";
-import { WalletInterface } from "types/receipt/response/wallet";
-import { EcommerceIndicatorType } from "types/receipt/response/eci";
-import { ReceiptResultType } from "types/receipt/response/result";
-import { GiftInterface } from "./gift";
-import { TokenizationInterface } from "./tokenize";
+} from "../../preload/request";
+import { CreditCardInterface, CreditCardResultInterface } from "../../receipt/response/card";
+import { BillingDetailResponseInterface } from "../../receipt/response/billing";
+import { ShoppingCartResponseInterface } from "../../receipt/response/cart";
+import { WalletInterface } from "../../receipt/response/wallet";
+import { EcommerceIndicatorType } from "../../receipt/response/eci";
+import { ReceiptResultType } from "../../receipt/response/result";
+import { GiftInterface } from "../../receipt/response/gift";
+import { TokenizationInterface } from "../../receipt/response/tokenize";
 
-export * from "types/receipt/response/billing";
-export * from "types/receipt/response/card";
-export * from "types/receipt/response/cart";
-export * from "types/receipt/response/eci";
-export * from "types/receipt/response/gift";
-export * from "types/receipt/response/result";
-export * from "types/receipt/response/wallet";
+export * from "../../receipt/response/billing";
+export * from "../../receipt/response/card";
+export * from "../../receipt/response/cart";
+export * from "../../receipt/response/eci";
+export * from "../../receipt/response/gift";
+export * from "../../receipt/response/result";
+export * from "../../receipt/response/wallet";
 
 export default interface ReceiptResponseInterface {
   response: {

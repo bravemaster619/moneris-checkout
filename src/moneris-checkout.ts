@@ -1,9 +1,9 @@
 import https from "https";
-import { EnvironmentType, RequestType, Hosts, EndPoints } from "types/global";
-import { OptionalPreloadRequestInterface } from "types/preload/request";
-import ReceiptRequestInterface from "types/receipt/request";
-import PreloadResponseInterface from "types/preload/response";
-import ReceiptResponseInterface from "types/receipt/response";
+import { EnvironmentType, RequestType, Hosts, EndPoints } from "./types/global";
+import { OptionalPreloadRequestInterface } from "./types/preload/request";
+import ReceiptRequestInterface from "./types/receipt/request";
+import PreloadResponseInterface from "./types/preload/response";
+import ReceiptResponseInterface from "./types/receipt/response";
 
 export default class MonerisCheckout {
 
