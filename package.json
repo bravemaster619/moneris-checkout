@@ -1,7 +1,7 @@
 {
   "name": "moneris-checkout",
   "homepage": "https://github.com/bravemaster619/moneris-checkout",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Moneris checkout",
   "main": "dist/moneris-checkout.js",
   "types": "dist/moneris-checkout.d.ts",

@@ -8,6 +8,10 @@ For developer document, please see [official doc](https://developer.moneris.com/
 
 # How to Use
 
+```console
+npm i -S moneris-checkout
+```
+
 ```javascript
 import MonerisCheckout from "moneris-checkout";
 import { EnvironmentType } from "moneris-checkout/types/global";
