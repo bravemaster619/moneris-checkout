@@ -31,7 +31,7 @@ export default class MonerisCheckout {
     payload.api_token = this.apiToken;
     payload.checkout_id = this.checkoutID;
     payload.environment = this.environment;
-    payload.txn_total = totalPrice;
+    payload.txn_total = totalPrice.toFixed(2);
     payload.action = RequestType.PRELOAD;
     return await this.sendRequest(this.requestOption, payload);
   }

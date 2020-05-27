@@ -9,7 +9,7 @@ export interface RequiredPreloadRequestInterface {
   store_id: string;
   api_token: string;
   checkout_id: string;
-  txn_total: number;
+  txn_total: number|string;
   environment: EnvironmentType;
   action: RequestType;
 }
