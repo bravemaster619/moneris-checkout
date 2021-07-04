@@ -14,7 +14,7 @@ npm i -S moneris-checkout
 
 ```javascript
 import MonerisCheckout from "moneris-checkout";
-import { EnvironmentType } from "moneris-checkout/types/global";
+import { EnvironmentType } from "moneris-checkout/dist/types/global";
 
 const moneris = new MonerisCheckout(
     "moneris", // Store ID
